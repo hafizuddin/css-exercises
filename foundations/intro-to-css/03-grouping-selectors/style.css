@@ -1,4 +1,12 @@
-.first.second{
+/* 
+Did some mistake here, I used syntax for chaining selector instead of group selector
+.first.seconde is wrong. I need to differentiate both selector properly
+For grouping, existing classes that share same "style" can be grouped together but mostly they 
+are very distinct, so we don't repeat same line of code for all the classes.
+While chaining is for element(class) that have 2 class, meaning that they mostly use the 
+same style but have 2nd class that can be use to make some tweaks for each of them
+*/
+.first,.second{
     font-family: Helvetica, "Times New Roman", sans-serif;
     font-size: 28px;
 }
