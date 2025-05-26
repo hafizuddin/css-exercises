@@ -10,6 +10,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* mine */
+  /* text-align: center; use global la if semua format sama  */
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +27,45 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* mine */
+
+body {
+  text-align: center;
+} /* ni ha global */
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.wrapper {
+  width: 200px;
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+  we don't need to set display:flex for this so
+  the relationship between img and .text is still block not flex
+  you got confuse by this
+  
+  */
+}
+
+/* .text {
+  text-align: center;
+}  use global la if semua format sama */
+
+/* Notes:
+This instruction: The items are only 200px wide and the text wraps.
+confused you, from chat gpt:
+
+Text wraps automatically when:
+
+It doesn’t fit the width of its container.
+
+The container allows wrapping (which it does by default for most block elements like <p> or <div>).
+
+
+
+*/
